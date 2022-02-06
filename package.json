@@ -1,0 +1,21 @@
+{
+  "name": "pixiv-discord-bot",
+  "version": "0.0.1",
+  "description": "Randomly fetches illustrations from pixiv's tags",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "keywords": [
+    "pixiv",
+    "discord",
+    "las"
+  ],
+  "author": "shinzo",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "node-fetch": "^2.6.7",
+    "typescript": "^4.5.5"
+  }
+}
